@@ -1,0 +1,29 @@
+{
+  "experiment_id": "exp_20260110_232338",
+  "model_type": "random_forest",
+  "model_version": 1,
+  "created_at": "2026-01-10T23:23:42.550252",
+  "metrics": {
+    "accuracy": 0.6378787878787879,
+    "precision": 0.6752600633197648,
+    "recall": 0.6758714350384789,
+    "f1_score": 0.6755656108597285,
+    "auc": 0.6944419524612334
+  },
+  "model_config": {
+    "n_estimators": 200,
+    "max_depth": 10,
+    "min_samples_split": 10,
+    "min_samples_leaf": 5,
+    "random_state": 42,
+    "n_jobs": -1
+  },
+  "notes": "random_forest with time_split=True",
+  "data_info": {
+    "train_samples": 47182,
+    "test_samples": 3960,
+    "feature_count": 88,
+    "train_pos_ratio": 0.6089186554194396,
+    "test_pos_ratio": 0.5578282828282828
+  }
+}
